@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingLeft="@dimen/basicMargin"
-    android:paddingRight="@dimen/basicMargin"
+    android:paddingLeft="@dimen/normal_16dp"
+    android:paddingRight="@dimen/normal_16dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -19,7 +19,7 @@
         android:textSize="30dp"/>
 
     <TextView
-        android:layout_marginTop="@dimen/basicMargin"
+        android:layout_marginTop="@dimen/normal_16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/berat_badan"
@@ -32,12 +32,12 @@
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:hint="@string/hint_berat_badan"
-        android:padding="@dimen/basicMargin"
+        android:padding="@dimen/normal_16dp"
         android:background="@drawable/rounded_edittext"
     />
 
     <TextView
-        android:layout_marginTop="@dimen/basicMargin"
+        android:layout_marginTop="@dimen/normal_16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tinggi_badan"
@@ -51,13 +51,13 @@
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:hint="@string/hint_tinggi_badan"
-        android:padding="@dimen/basicMargin"
+        android:padding="@dimen/normal_16dp"
         android:background="@drawable/rounded_edittext"
         />
 
 
     <LinearLayout
-        android:layout_marginTop="@dimen/basicMargin"
+        android:layout_marginTop="@dimen/normal_16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">

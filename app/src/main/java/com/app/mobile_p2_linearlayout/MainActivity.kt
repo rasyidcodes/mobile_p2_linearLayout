@@ -33,6 +33,10 @@ class MainActivity : AppCompatActivity() {
 
             }
 
+            binding.btToast.setOnClickListener{
+                Toast.makeText(applicationContext,"ini toast!", Toast.LENGTH_SHORT).show()
+            }
+
         }
     }
 }
