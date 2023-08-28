@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/basicMargin"
+    android:paddingRight="@dimen/basicMargin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bmi_calculator"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/basicMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/berat_badan"
+        android:textColor="@color/black"
+        android:textSize="16dp"/>
+    <EditText
+        android:id="@+id/et_beratBadan"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="@string/hint_berat_badan"
+        android:padding="@dimen/basicMargin"
+        android:background="@drawable/rounded_edittext"
+    />
+
+    <TextView
+        android:layout_marginTop="@dimen/basicMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tinggi_badan"
+        android:textColor="@color/black"
+        android:textSize="16dp"/>
+
+    <EditText
+        android:id="@+id/et_tinggiBadan"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="@string/hint_tinggi_badan"
+        android:padding="@dimen/basicMargin"
+        android:background="@drawable/rounded_edittext"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/basicMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_Toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toast"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/white"
+            android:layout_weight="1"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"/>
+
+        <Button
+            android:id="@+id/bt_hitung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:text="@string/hitung"
+            android:textColor="@color/white"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textColor="@color/black"
+        android:textSize="128sp"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>

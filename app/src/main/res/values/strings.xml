@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">mobile_p2_linearLayout</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="berat_badan">Berat Badan</string>\
+    <string name="hint_berat_badan">Masukkan berat badan</string>
+    <string name="tinggi_badan">Tinggi Badan</string>
+    <string name="hint_tinggi_badan">Masukkan tinggi badan</string>
+    <string name="toast">Toast</string>
+    <string name="hitung">Hitung</string>
+    <string name="result">0</string>
+</resources>
